@@ -5,7 +5,7 @@ import CTAButton from "@/components/CTAButton";
 const stats = [
   { value: "Bezpłatna", label: "Opłata za wizę", icon: "" },
   { value: "3-5 dni", label: "Czas rozpatrzenia", icon: "⏱️" },
-  { value: "12 miesięcy", label: "Okres ważności", icon: "📅" },
+  { value: "12 miesięcy", label: "Okres ważności", icon: "" },
   { value: "90 dni", label: "Maksymalny pobyt", icon: "" },
 ];
 
@@ -36,7 +36,7 @@ export default function HomePage() {
           />
           <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(0,0,139,0.7), rgba(0,0,80,0.85))" }} />
           <div className="absolute inset-0 flex items-center">
-            <div className="max-w-7xl mx-auto px-4 text-white">
+            <div className="max-w-7xl mx-auto px-4 text-white text-center">
               <h1 className="text-4xl md:text-6xl font-bold font-[Merriweather] leading-tight max-w-3xl">
                 Australijska wiza <span style={{ color: "#FFD700" }}>eVisitor</span>
               </h1>
