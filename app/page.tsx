@@ -3,10 +3,10 @@ import Link from "next/link";
 import CTAButton from "@/components/CTAButton";
 
 const stats = [
-  { value: "Bezpłatna", label: "Opłata za wizę", icon: "💰" },
+  { value: "Bezpłatna", label: "Opłata za wizę", icon: "" },
   { value: "3-5 dni", label: "Czas rozpatrzenia", icon: "⏱️" },
   { value: "12 miesięcy", label: "Okres ważności", icon: "📅" },
-  { value: "90 dni", label: "Maksymalny pobyt", icon: "✈️" },
+  { value: "90 dni", label: "Maksymalny pobyt", icon: "" },
 ];
 
 const infoCards = [
